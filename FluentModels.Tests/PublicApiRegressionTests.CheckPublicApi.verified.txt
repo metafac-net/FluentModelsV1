@@ -1,6 +1,7 @@
 ﻿namespace FluentModels
 {
     [System.AttributeUsage(System.AttributeTargets.Class)]
+    [System.Obsolete("This package has been deprecated. Please use package Metafac.CG4.SChemas.")]
     public class EntityAttribute : System.Attribute
     {
         public readonly string? Reason;
@@ -11,6 +12,7 @@
         public bool IsRedacted { get; }
     }
     [System.AttributeUsage(System.AttributeTargets.Property)]
+    [System.Obsolete("This package has been deprecated. Please use package Metafac.CG4.SChemas.")]
     public class MemberAttribute : System.Attribute
     {
         public readonly string? Reason;
@@ -29,12 +31,14 @@
         Deleted = 3,
     }
     [System.AttributeUsage(System.AttributeTargets.Struct)]
+    [System.Obsolete("This package has been deprecated. Please use package Metafac.CG4.SChemas.")]
     public class ProxyAttribute : System.Attribute
     {
         public readonly string ConcreteName;
         public readonly string ExternalName;
         public ProxyAttribute(string externalName, string concreteName) { }
     }
+    [System.Obsolete("This package has been deprecated. Please use package Metafac.CG4.SChemas.")]
     public class TokenAttribute : System.Attribute
     {
         public readonly string Name;

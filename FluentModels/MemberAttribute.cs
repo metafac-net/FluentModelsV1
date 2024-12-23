@@ -2,6 +2,7 @@
 
 namespace FluentModels
 {
+    [Obsolete("This package has been deprecated. Please use package Metafac.CG4.SChemas.")]
     [AttributeUsage(AttributeTargets.Property)]
     public class MemberAttribute : Attribute
     {
